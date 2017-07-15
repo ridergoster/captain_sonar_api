@@ -1,15 +1,19 @@
 {
   "name": "captain_sonar_api",
   "version": "1.0.0",
+  "engines": {
+    "node": "6.2.0"
+  },
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.15.3",
+    "express": "4.13.4",
     "socket.io": "^2.0.3"
   }
 }
